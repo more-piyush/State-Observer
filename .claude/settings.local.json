@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -m venv venv)",
+      "Bash(python -m venv \"C:/Users/USER/Desktop/Projects/PGM State Observer/venv\")",
+      "Bash(SHELL=/usr/bin/bash python -m venv \"C:/Users/USER/Desktop/Projects/PGM State Observer/venv\")",
+      "Bash(wc -l \"C:/Users/USER/Desktop/Projects/PGM State Observer/results/\"*.csv)",
+      "Bash(wc -l \"C:/Users/USER/Desktop/Projects/PGM State Observer/results_multistep/\"*.csv)",
+      "Bash(python -c \":*)",
+      "Bash(wc -l \"/c/Users/USER/Desktop/Projects/PGM State Observer/results_multistep/\"*.csv)",
+      "Bash(python3 -c \"import os; print\\(''hello''\\)\")",
+      "Bash(python -c \"print\\(''hello''\\)\")",
+      "Bash(python3 -c \":*)",
+      "Bash(python -c \"import glob, os; files = sorted\\(glob.glob\\(''C:/Users/USER/Desktop/Projects/PGM State Observer/results_multistep/*.csv''\\)\\); [print\\(f''{sum\\(1 for _ in open\\(f\\)\\):6d}  {os.path.basename\\(f\\)}''\\) for f in files]\")",
+      "Bash(python -c \"import glob; print\\(glob.glob\\(''C:/Users/USER/Desktop/Projects/PGM State Observer/results_multistep/*.csv''\\)[:3]\\)\")",
+      "Bash(python analyze.py)",
+      "Bash(python analyze_results.py)"
+    ]
+  }
+}
